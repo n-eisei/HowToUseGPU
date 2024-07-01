@@ -1,0 +1,3 @@
+- dont use large volume large than 300G
+- dont use GPU server to transfer large data (unnormal data will be monitoring) 
+- dont install other softwares in GPU server  
