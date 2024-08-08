@@ -3,7 +3,7 @@
  ```
   $> ssh <your_username>@gpu-server -p <your_port>
  ```
-4. input <your_password> 
+3. input <your_password> 
 
 * please ask for <your_username> and <your_password> to administrator.
 * <your_port> is setup for different cuda versions:
