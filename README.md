@@ -1,4 +1,5 @@
-1. copy "gpususer.pem" and "config" files in .ssh folder to  your %HOME%/.ssh folder
+1. copy "gpususer.pem" into .ssh folder to  your %HOME% directory.
+   * please ask lab manager for the gpususer.pem file if you havn't it.
 2. execute the following command
  ```
   $> ssh <your_username>@gpu-server -p <your_port>
