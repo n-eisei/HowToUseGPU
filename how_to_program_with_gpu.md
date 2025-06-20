@@ -1,3 +1,8 @@
+### guidence for uv environment (recommended)
+
+- please refer to https://docs.astral.sh/uv/getting-started/
+
+### guidence for conda development environment
 
 - install conda in order to use venv
   
