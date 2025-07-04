@@ -1,14 +1,11 @@
-1. copy "gpususer.pem" into .ssh folder to  your %HOME% directory.
-   * please ask lab manager for the gpususer.pem file if you havn't it.
+1. copy "gpususer.pem" into .ssh folder in  your %HOME% directory.
+   * please ask lab manager for the gpususer.pem file if you haven't own it.
 2. execute the following command
  ```
-  $> ssh <your_username>@gpu-server -p <your_port>
+  $> ssh <your_username>@gpu-server -p 2118
  ```
 3. input <your_password> 
-
-* please ask for <your_username> and <your_password> to administrator.
-* <your_port> is setup for different cuda versions:
-   -   cuda 11.8   -- <your_port> is 2118
+  * please ask for <your_username> and <your_password> to administrator.
 
  
 

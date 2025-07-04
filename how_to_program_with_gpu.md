@@ -2,7 +2,7 @@
 
 - please refer to https://docs.astral.sh/uv/getting-started/
 
-### guidence for conda development environment
+### guidence for conda environment (optional)
 
 - install conda in order to use venv
   
@@ -15,12 +15,12 @@
   ```
 
 
-- set path environment variables (example)
+- set path environment variables (example of create Make-IT-3D development environment)
   ```
   export PATH="/usr/local/nvidia/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/usr/local/cuda-11.3/bin:$(pwd)/anaconda3/bin:$(pwd)/.local/bin"
   export LD_LIBRARY_PATH="/usr/local/cuda-11.3/lib64:$LD_LIBRARY_PATH"
 
-- create venv in your project (for example for Make-It-3D project)
+- create venv in your project (example for Make-It-3D project)
   ```
   git clone https://github.com/junshutang/Make-It-3D.git
   cd Make-It-3D
@@ -31,7 +31,7 @@
   conda activate makeit3d
   ```
   
-- install necessary python library for you project (for example for Make-It-3D)
+- install necessary python library for you project (example for Make-It-3D)
     ``` 
     pip install torch==1.10.0+cu113 torchvision==0.11.1+cu113 torchaudio===0.10.0+cu113 -f https://download.pytorch.org/whl/cu113/torch_stable.html
     pip install git+https://github.com/NVlabs/tiny-cuda-nn/#subdirectory=bindings/torch
